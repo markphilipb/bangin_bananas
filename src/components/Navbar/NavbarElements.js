@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-  ${"" /* background: #fff; */}
   height: 80px;
   width: 100%;
   display: flex;

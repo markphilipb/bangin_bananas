@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
       <Nav>
         <Boop rotation={20} timing={200}>
-          <img src={logo} style={{ width: 100, marginTop: -7 }} />
+          <img src={logo} style={{ width: 75, marginTop: -7 }} />
         </Boop>
       </Nav>
     </>

@@ -5,6 +5,6 @@ export const Main = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap-reverse;
-  padding: 2em;
-  padding-top: 0em;
+  padding: 0.5em;
+  padding-top: 0.5em;
 `;

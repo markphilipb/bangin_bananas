@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, logoImage } from "./NavbarElements.js";
-import logo from "../../imgs/bananalogo.jpg";
+import logo from "../../imgs/bananalogo.png";
 import Boop from "./logo.js";
 
 const Navbar = () => {

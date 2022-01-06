@@ -1,8 +1,7 @@
 import styled from "styled-components";
-import logo from "../../imgs/bananalogo.jpg";
 
 export const Nav = styled.nav`
-  background: #fff;
+  ${"" /* background: #fff; */}
   height: 80px;
   width: 100%;
   display: flex;

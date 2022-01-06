@@ -1,11 +1,14 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar.js";
+import { Main } from "./HomeElements.js";
 
 const Home = () => {
   return (
-    <div>
-      <Navbar />
-    </div>
+    <>
+      <Main>
+        <Navbar />
+      </Main>
+    </>
   );
 };
 

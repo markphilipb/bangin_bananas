@@ -8,8 +8,8 @@ const Boop = ({ rotation = 0, timing = 150, children }) => {
     backfaceVisibility: "hidden",
     transform: isBooped ? `rotate(${rotation}deg)` : `rotate(0deg)`,
     config: {
-      tension: 300,
-      friction: 40,
+      tension: 150,
+      friction: 10,
     },
   });
   React.useEffect(() => {

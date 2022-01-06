@@ -1,12 +1,15 @@
 import React from "react";
 import { Nav, logoImage } from "./NavbarElements.js";
 import logo from "../../imgs/bananalogo.jpg";
+import Boop from "./logo.js";
 
 const Navbar = () => {
   return (
     <>
       <Nav>
-        <img src={logo} style={{ width: 100, marginTop: -7 }} />
+        <Boop rotation={20} timing={200}>
+          <img src={logo} style={{ width: 100, marginTop: -7 }} />
+        </Boop>
       </Nav>
     </>
   );

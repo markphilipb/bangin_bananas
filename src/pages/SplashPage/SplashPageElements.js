@@ -1,9 +1,15 @@
 import styled from "styled-components";
 
+export const RowDiv = styled.div`
+  display:flex;
+  flex-direction:row;
+`;
+
 export const SplashPageMain = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 `;
 export const TitleText = styled.p`
   font-size: 100px;

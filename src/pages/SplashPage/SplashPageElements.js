@@ -8,6 +8,7 @@ export const SplashPageMain = styled.div`
 export const TitleText = styled.p`
   font-size: 100px;
   height: 80px;
+  letter-spacing: -.05em;
 `;
 export const ParagraphText = styled.p`
   font-size: 40px;
@@ -16,7 +17,6 @@ export const ParagraphText = styled.p`
 export const ImageDiv = styled.div``;
 export const TextDiv = styled.div`
   font-family: "Regular";
-  letter-spacing: -.2em;
   color: #000;
 `;
 

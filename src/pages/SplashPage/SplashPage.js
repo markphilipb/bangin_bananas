@@ -8,7 +8,7 @@ import {
   SocialIcons,
   Icon,
   IconDiv,
-  RowDiv,
+  BananaImg,
 } from "./SplashPageElements.js";
 import bananaImg from "../../imgs/TempBanana.png";
 import Typed from "react-typed";
@@ -21,7 +21,7 @@ const SplashPage = () => {
     <>
       <SplashPageMain>
         <ImageDiv>
-          <img src={bananaImg} style={{ width: 630 }} />
+          <BananaImg src={bananaImg} />
         </ImageDiv>
         <TextDiv>
           <TitleText>

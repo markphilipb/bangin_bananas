@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <>
       <Nav>
-        <Boop rotation={20} timing={200}>
+        <Boop rotation={20} timing={200} tension={150} friction={10}>
           <img src={logo} style={{ width: 75, marginTop: -7 }} />
         </Boop>
       </Nav>

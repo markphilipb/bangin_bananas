@@ -1,7 +1,13 @@
 import React from "react";
 import { animated, useSpring } from "react-spring";
 
-const Boop = ({ rotation = 0, timing = 150, children }) => {
+const Boop = ({
+  rotation = 0,
+  timing = 150,
+  tension = 150,
+  friction = 10,
+  children,
+}) => {
   const [isBooped, setIsBooped] = React.useState(false);
   const style = useSpring({
     display: "inline-block",
@@ -9,7 +15,7 @@ const Boop = ({ rotation = 0, timing = 150, children }) => {
     transform: isBooped ? `rotate(${rotation}deg)` : `rotate(0deg)`,
     config: {
       tension: 150,
-      friction: 10,
+      friction: friction,
     },
   });
   React.useEffect(() => {

@@ -29,7 +29,7 @@ const SplashPage = () => {
           <ParagraphText>
             <Typed
               strings={[
-                "Bangin Bananas is a collection of 6,969 randomly generated hand-drawn profile pics.",
+                "Bangin Bananas is a collection of 6,969 randomly generated hand drawn profile pics.",
               ]}
               typeSpeed={5}
               backSpeed={10}

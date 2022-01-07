@@ -5,29 +5,32 @@ export const SplashPageMain = styled.div`
   flex-direction: row;
   justify-content: center;
 `;
-export const TitleText = styled.h1`
-  font-size: 60px;
+export const TitleText = styled.p`
+  font-size: 100px;
+  height: 80px;
 `;
 export const ParagraphText = styled.p`
-  font-size: 20px;
+  font-size: 40px;
   height: 5em;
 `;
 export const ImageDiv = styled.div``;
 export const TextDiv = styled.div`
-  font-family: "Georgia, serif";
+  font-family: "Regular";
   letter-spacing: 0.12em;
-  color: #383838;
+  color: #000;
 `;
 
 export const SocialIcons = styled.div`
   display: flex;
   flex-direction: row;
-  margin-top: 10em;
+  margin-top: 4em;
   justify-content: flex-start;
   align-items: left;
 `;
 
-export const Icon = styled.img``;
+export const Icon = styled.img`
+  color: #000;
+`;
 export const IconDiv = styled.div`
   margin-right: 5em;
 `;

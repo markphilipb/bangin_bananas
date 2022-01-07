@@ -13,6 +13,7 @@ export const TitleText = styled.p`
 export const ParagraphText = styled.p`
   font-size: 40px;
   height: 5em;
+  letter-spacing: -.05em;
 `;
 export const ImageDiv = styled.div``;
 export const TextDiv = styled.div`

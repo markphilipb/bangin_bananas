@@ -16,7 +16,7 @@ export const ParagraphText = styled.p`
 export const ImageDiv = styled.div``;
 export const TextDiv = styled.div`
   font-family: "Regular";
-  letter-spacing: 0.12em;
+  letter-spacing: -.2em;
   color: #000;
 `;
 

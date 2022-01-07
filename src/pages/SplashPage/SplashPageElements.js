@@ -1,13 +1,8 @@
 import styled from "styled-components";
 
-export const RowDiv = styled.div`
-  display:flex;
-  flex-direction:row;
-`;
-
 export const SplashPageMain = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 `;

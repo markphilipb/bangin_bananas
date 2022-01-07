@@ -20,41 +20,39 @@ const SplashPage = () => {
   return (
     <>
       <SplashPageMain>
-        <RowDiv>
-          <ImageDiv>
-            <img src={bananaImg} style={{ width: 630 }} />
-          </ImageDiv>
-          <TextDiv>
-            <TitleText>
-              Something special is in the works, stay tuned :)
-            </TitleText>
-            <ParagraphText>
-              <Typed
-                strings={[
-                  "Bangin Bananas is a collection of 6,969 randomly generated hand drawn profile pics.",
-                ]}
-                typeSpeed={5}
-                backSpeed={10}
-                backDelay={20000}
-                loop
-              />
-            </ParagraphText>
-            <SocialIcons>
-              <IconDiv>
-                <Boop rotation={20} timing={200} tension={100} friction={50}>
-                  <a href="https://twitter.com/bangin_bananas">
-                    <Icon src={twitterIcon} height="50px" />
-                  </a>
-                </Boop>
-              </IconDiv>
-              <IconDiv>
-                <Boop rotation={20} timing={200} tension={100} friction={50}>
-                  <Icon src={discordIcon} height="50px" />
-                </Boop>
-              </IconDiv>
-            </SocialIcons>
-          </TextDiv>
-        </RowDiv>
+        <ImageDiv>
+          <img src={bananaImg} style={{ width: 630 }} />
+        </ImageDiv>
+        <TextDiv>
+          <TitleText>
+            Something special is in the works, stay tuned :)
+          </TitleText>
+          <ParagraphText>
+            <Typed
+              strings={[
+                "Bangin Bananas is a collection of 6,969 randomly generated hand drawn profile pics.",
+              ]}
+              typeSpeed={5}
+              backSpeed={10}
+              backDelay={20000}
+              loop
+            />
+          </ParagraphText>
+          <SocialIcons>
+            <IconDiv>
+              <Boop rotation={20} timing={200} tension={100} friction={50}>
+                <a href="https://twitter.com/bangin_bananas">
+                  <Icon src={twitterIcon} height="50px" />
+                </a>
+              </Boop>
+            </IconDiv>
+            <IconDiv>
+              <Boop rotation={20} timing={200} tension={100} friction={50}>
+                <Icon src={discordIcon} height="50px" />
+              </Boop>
+            </IconDiv>
+          </SocialIcons>
+        </TextDiv>
       </SplashPageMain>
     </>
   );

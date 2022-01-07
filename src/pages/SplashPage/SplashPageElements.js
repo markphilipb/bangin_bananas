@@ -8,14 +8,16 @@ export const SplashPageMain = styled.div`
   text-align: center;
   vertical-align: middle;
   width: 100%;
-  height: auto;
+  height: 100vh;
   padding: 0.5rem calc((50vw - 1000px) / 2);
 
   ${"" /* portrait mode tablets */}
   @media only screen and (max-width: 1023px) {
     flex-direction: column-reverse;
+    height: 100%;
   }
 `;
+
 export const TitleText = styled.p`
   font-size: 100px;
   height: auto;
@@ -26,6 +28,7 @@ export const TitleText = styled.p`
     font-size: 80px;
   }
 `;
+
 export const ParagraphText = styled.p`
   font-size: 50px;
   height: 3em;
@@ -34,6 +37,7 @@ export const ParagraphText = styled.p`
     font-size: 50px;
   }
 `;
+
 export const ImageDiv = styled.div``;
 export const BananaImg = styled.img`
   @media only screen and (min-width: 1950px) {
@@ -54,6 +58,7 @@ export const BananaImg = styled.img`
     height: auto;
   }
 `;
+
 export const TextDiv = styled.div`
   font-family: "Regular";
   color: #000;
@@ -74,9 +79,23 @@ export const SocialIcons = styled.div`
   padding: 0.5rem calc((50vw - 1000px) / 2);
 `;
 
-export const Icon = styled.img`
+export const TwitterIcon = styled.img`
+  fill: #fff;
+  .icon:hover {
+    fill: #01bf71;
+    transition: 0.2 ease-in-out;
+  }
+`;
+
+export const DiscordIcon = styled.img`
   color: #000;
 `;
+
 export const IconDiv = styled.div`
-  margin: 1em;
+  margin: 2em;
+`;
+
+export const AuthorText = styled.p`
+  font-size: 40px;
+  letter-spacing: -0.05em;
 `;

@@ -8,7 +8,14 @@ export const Main = styled.div`
   flex-direction: column;
   padding: 0.5em;
   padding-top: 0.5em;
+  height: 100vh;
+
   @media only screen and (max-width: 520px) {
     width: 100vw;
+  }
+
+  ${"" /* portrait mode tablets */}
+  @media only screen and (max-width: 1023px) {
+    height: auto;
   }
 `;

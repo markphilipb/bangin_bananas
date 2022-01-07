@@ -6,9 +6,11 @@ import {
   SplashPageMain,
   TextDiv,
   SocialIcons,
-  Icon,
+  TwitterIcon,
+  DiscordIcon,
   IconDiv,
   BananaImg,
+  AuthorText,
 } from "./SplashPageElements.js";
 import bananaImg from "../../imgs/TempBanana.png";
 import Typed from "react-typed";
@@ -40,17 +42,18 @@ const SplashPage = () => {
           </ParagraphText>
           <SocialIcons>
             <IconDiv>
-              <Boop rotation={20} timing={200} tension={100} friction={50}>
+              <Boop rotation={20} timing={200} tension={100} friction={20}>
                 <a href="https://twitter.com/bangin_bananas">
-                  <Icon src={twitterIcon} height="50px" />
+                  <TwitterIcon src={twitterIcon} height="50px" />
                 </a>
               </Boop>
             </IconDiv>
             <IconDiv>
-              <Boop rotation={20} timing={200} tension={100} friction={50}>
-                <Icon src={discordIcon} height="50px" />
+              <Boop rotation={20} timing={200} tension={100} friction={20}>
+                <DiscordIcon src={discordIcon} height="50px" />
               </Boop>
             </IconDiv>
+            <AuthorText className="authorText">By Mark & Marisa</AuthorText>
           </SocialIcons>
         </TextDiv>
       </SplashPageMain>

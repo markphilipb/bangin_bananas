@@ -8,4 +8,7 @@ export const Main = styled.div`
   flex-direction: column;
   padding: 0.5em;
   padding-top: 0.5em;
+  @media only screen and (max-width: 520px) {
+    width: 100vw;
+  }
 `;

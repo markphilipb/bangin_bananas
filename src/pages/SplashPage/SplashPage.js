@@ -17,6 +17,7 @@ import Typed from "react-typed";
 import twitterIcon from "../../imgs/socialIcons/twitter-brands.svg";
 import discordIcon from "../../imgs/socialIcons/discord-brands.svg";
 import Boop from "../../components/Navbar/logo.js";
+import Tooltip from "@mui/material/Tooltip";
 
 const SplashPage = () => {
   return (
@@ -50,7 +51,9 @@ const SplashPage = () => {
             </IconDiv>
             <IconDiv>
               <Boop rotation={20} timing={200} tension={100} friction={20}>
-                <DiscordIcon src={discordIcon} height="50px" />
+                <Tooltip title="Coming soon">
+                  <DiscordIcon src={discordIcon} height="50px" />
+                </Tooltip>
               </Boop>
             </IconDiv>
             <AuthorText className="authorText">By Mark & Marisa</AuthorText>

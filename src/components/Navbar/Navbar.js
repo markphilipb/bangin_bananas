@@ -1,28 +1,15 @@
 import React from "react";
-import { Nav, NavLink, NavMenu, Bars } from "./NavbarElements.js";
+import { Nav, logoImage } from "./NavbarElements.js";
+import logo from "../../imgs/bananalogo.png";
+import Boop from "./logo.js";
 
-const Navbar = ({ toggle }) => {
+const Navbar = () => {
   return (
     <>
       <Nav>
-        <NavLink to="/">
-          <p className="nameLogo">mark balazon</p>
-        </NavLink>
-        <Bars onClick={toggle} />
-        <NavMenu>
-          <NavLink to="/about" activeStyle>
-            about
-          </NavLink>
-          <NavLink to="/resume" activeStyle>
-            resume
-          </NavLink>
-          <NavLink to="/projects" activeStyle>
-            projects
-          </NavLink>
-          <NavLink to="/contact" activeStyle>
-            contact
-          </NavLink>
-        </NavMenu>
+        <Boop rotation={20} timing={200} tension={150} friction={10}>
+          <img src={logo} style={{ width: 75, marginTop: -7 }} />
+        </Boop>
       </Nav>
     </>
   );

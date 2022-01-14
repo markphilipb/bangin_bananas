@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   TitleText,
   ParagraphText,
@@ -15,13 +15,23 @@ import {
 import Typed from "react-typed";
 import Boop from "../../components/Navbar/logo.js";
 import Tooltip from "@mui/material/Tooltip";
+import Freezeframe from "freezeframe";
 
-const SplashPage = () => {
+const SplashPage = (props) => {
+  useEffect(() => {
+    const ff = new Freezeframe({
+      trigger: "hover",
+    });
+  }, []);
+
   return (
     <>
       <SplashPageMain>
         <ImageDiv>
-          <BananaImg src="/imgs/TempBanana.png" />
+          <BananaImg
+            className="freezeframe"
+            src="/gifs/banana_transparent_new.gif"
+          />
         </ImageDiv>
         <TextDiv>
           <TitleText>

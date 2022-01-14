@@ -2,7 +2,8 @@
 const needle = require("needle");
 
 export default function handler(req, res) {
-  needle.get("http://localhost:4040/api/tweets", function (error, response) {
+  const url = process.env.HOST + "/api/tweets";
+  needle.get(url, function (error, response) {
     if (!error && response.statusCode == 200) {
       console.log(response.body);
       res.status(200).json(response.body);

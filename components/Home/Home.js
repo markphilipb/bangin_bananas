@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useState, useCallback } from "react";
 import Navbar from "../../components/Navbar/Navbar.js";
 import { Main } from "./HomeElements.js";
-import SplashPage from "../SplashPage/SplashPage.js";
+import dynamic from "next/dynamic";
+const SplashPage = dynamic(() => import("../SplashPage/SplashPage.js"), {
+  ssr: false,
+});
 
 const Home = () => {
+  const [play, setPlay] = useState(false);
+
   return (
     <>
       <Main>
-        <Navbar />
-        <SplashPage />
+        <Navbar onClick={() => setPlay(play && false)} />
+        <SplashPage playGif={play} />
       </Main>
     </>
   );

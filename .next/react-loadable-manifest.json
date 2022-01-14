@@ -1,1 +1,8 @@
-{}
+{
+  "../components/Home/Home.js -> ../SplashPage/SplashPage.js": {
+    "id": "./components/SplashPage/SplashPage.js",
+    "files": [
+      "static/chunks/components_SplashPage_SplashPage_js.js"
+    ]
+  }
+}

@@ -15,22 +15,23 @@ import {
 import Typed from "react-typed";
 import Boop from "../../components/Navbar/logo.js";
 import Tooltip from "@mui/material/Tooltip";
-import Freezeframe from "freezeframe";
+//import Freezeframe from "freezeframe";
 
 const SplashPage = (props) => {
-  useEffect(() => {
-    const ff = new Freezeframe({
-      trigger: "hover",
-    });
-  }, []);
+  // useEffect(() => {
+  //   const ff = new Freezeframe({
+  //     trigger: "hover",
+  //   });
+  // }, []);
 
   return (
     <>
       <SplashPageMain>
         <ImageDiv>
           <BananaImg
-            className="freezeframe"
+            // className="freezeframe"
             src="/gifs/banana_transparent_new.gif"
+            //src="/gifs/Banana-White-stroke-HD.gif"
           />
         </ImageDiv>
         <TextDiv>

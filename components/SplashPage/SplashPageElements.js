@@ -57,6 +57,10 @@ export const BananaImg = styled.img`
     width: 600px;
     height: auto;
   }
+  @media only screen and (min-width: 1366px) and (max-width: 1699px) {
+    width: 600px;
+    height: auto;
+  }
 
   @media only screen and (min-width: 1024px) and (max-width: 1365px) {
     width: 400px;

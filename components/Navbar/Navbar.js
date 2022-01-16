@@ -10,7 +10,6 @@ const Navbar = (props) => {
           <img
             src="/imgs/bananalogo.png"
             style={{ width: 75, marginTop: -7 }}
-            onClick={props.onClick()}
           />
         </Boop>
       </Nav>

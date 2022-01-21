@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 import {
   TitleText,
   ParagraphText,
@@ -28,10 +29,12 @@ const SplashPage = (props) => {
     <>
       <SplashPageMain>
         <ImageDiv>
-          <BananaImg
+          <Image
             // className="freezeframe"
             src="/gifs/banana_transparent_new.gif"
             //src="/gifs/Banana-White-stroke-HD.gif"
+            height="600px"
+            width="600px"
           />
         </ImageDiv>
         <TextDiv>

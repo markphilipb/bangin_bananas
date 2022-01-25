@@ -1,6 +1,7 @@
 import Home from "../components/Home/Home.js";
 import React, { useEffect } from "react";
 import Head from "next/head";
+import SplashPage from "../components/SplashPage/SplashPage.js";
 
 function App() {
   return (

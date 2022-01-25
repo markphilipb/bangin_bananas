@@ -1,19 +1,21 @@
 import React from "react";
-import Navbar from "../../components/Navbar/Navbar.js";
-import { Main } from "./HomeElements.js";
 import dynamic from "next/dynamic";
-import SplashPage from "../SplashPage/SplashPage.js";
-// const SplashPage = dynamic(() => import("../SplashPage/SplashPage.js"), {
-//   ssr: false,
-// });
+import Header from "../Header/Header.js";
+import About from "../About/About.js";
+import Why from "../Why/Why.js";
+import Schedule from "../Schedule/Schedule.js";
+import Team from "../Team/Team.js";
+import FAQ from "../FAQ/FAQ.js";
 
 const Home = () => {
   return (
     <>
-      <Main>
-        <Navbar />
-        <SplashPage />
-      </Main>
+      <Header />
+      <About />
+      <Why />
+      <Schedule />
+      <Team />
+      <FAQ />
     </>
   );
 };

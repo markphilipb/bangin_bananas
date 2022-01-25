@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-  height: 80px;
+  height: 100px;
   width: 100%;
   display: flex;
   justify-content: flex-start;

@@ -8,9 +8,9 @@ export const SplashPageMain = styled.div`
   text-align: center;
   vertical-align: middle;
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 100px);
   padding: 0.5rem calc((50vw - 1000px) / 2);
-
+  box-sizing: border-box;
   ${"" /* portrait mode tablets */}
   @media only screen and (max-width: 1023px) {
     flex-direction: column-reverse;

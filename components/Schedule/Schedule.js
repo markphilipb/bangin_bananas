@@ -12,7 +12,7 @@ const Title = styled.h2`
 function Schedule() {
   return (
     <div>
-      <Title>Schedule</Title>
+      <Title>WEN 🍌</Title>
     </div>
   );
 }

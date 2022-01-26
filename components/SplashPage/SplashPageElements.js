@@ -74,8 +74,10 @@ export const BananaImg = styled.img`
 `;
 
 export const TextDiv = styled.div`
-  font-family: "Regular";
-  color: #000;
+  ${
+    "" /* font-family: "Regular";
+  color: #000; */
+  }
   padding-right: 2rem;
 
   @media only screen and (max-width: 1023px) {

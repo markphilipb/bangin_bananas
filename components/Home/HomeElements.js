@@ -5,6 +5,8 @@ export const Main = styled.div`
   display: flex;
   justify-content: center;
   ${"" /* flex-wrap: wrap-reverse; */}
+  font-family: "Regular";
+  color: #000;
   flex-direction: column;
   padding: 0.5em;
   padding-top: 0.5em;

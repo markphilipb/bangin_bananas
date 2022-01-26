@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const HeaderTitle = styled.h1`
-  font-size: 300px;
+  font-size: 400px;
   font-weight: normal;
   height: auto;
   letter-spacing: -0.05em;

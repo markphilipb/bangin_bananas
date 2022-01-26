@@ -27,7 +27,7 @@ function About() {
   return (
     <AboutMain>
       <TextSection>
-        <AboutTitle>Bangin Bananas WHO?</AboutTitle>
+        <AboutTitle>WHO Banana?</AboutTitle>
         <AboutParagraph>
           A collection of 6969 randomly generated handrawn NFTs on the Ethereum
           blockchain

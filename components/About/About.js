@@ -1,39 +1,19 @@
 import React from "react";
-import styled from "styled-components";
-
-const AboutTitle = styled.h2`
-  font-size: 150px;
-  font-weight: normal;
-  height: auto;
-  letter-spacing: -0.05em;
-  margin: 0px;
-`;
-
-const TextSection = styled.div``;
-
-const AboutMain = styled.div`
-  display: flex;
-  justify-content: center;
-`;
-
-const AboutParagraph = styled.p`
-  font-size: 75px;
-  height: auto;
-  letter-spacing: -0.05em;
-  margin: 0px;
-`;
+import * as S from "../StyleElements.js";
 
 function About() {
   return (
-    <AboutMain>
-      <TextSection>
-        <AboutTitle>WHO Banana?</AboutTitle>
-        <AboutParagraph>
+    <S.SectionMain>
+      <S.TextDiv>
+        <S.SectionTitle>
+          WHO <S.BananaEmoji>&#127820;</S.BananaEmoji>?
+        </S.SectionTitle>
+        <S.SectionParagraph>
           A collection of 6969 randomly generated handrawn NFTs on the Ethereum
           blockchain
-        </AboutParagraph>
-      </TextSection>
-    </AboutMain>
+        </S.SectionParagraph>
+      </S.TextDiv>
+    </S.SectionMain>
   );
 }
 

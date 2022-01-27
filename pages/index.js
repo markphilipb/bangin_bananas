@@ -10,7 +10,7 @@ function App() {
         <title>Bangin Bananas</title>
         <link rel="icon" href="/imgs/bananalogo.png" />
         <link rel="apple-touch-icon" href="/imgs/bananalogo.png" />
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
       </Head>
       <Home />
     </>

@@ -10,13 +10,14 @@ import FAQ from "../FAQ/FAQ.js";
 const HomeMain = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  ${"" /* justify-content: center; */}
+  ${"" /* align-items: center; */}
   text-align: center;
-  vertical-align: middle;
+  ${"" /* vertical-align: middle; */}
   width: 100%;
   height: calc(100vh - 100px);
   padding: 0.5rem calc((50vw - 1000px) / 2);
+  padding-top: 5rem;
   box-sizing: border-box;
 `;
 

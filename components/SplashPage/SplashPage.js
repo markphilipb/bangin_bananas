@@ -30,8 +30,9 @@ const SplashPage = (props) => {
         <ImageDiv>
           <BananaImg
             // className="freezeframe"
-            src="/gifs/banana_transparent_new.gif"
+            // src="/gifs/banana_transparent_new.gif"
             //src="/gifs/Banana-White-stroke-HD.gif"
+            src="/gifs/banana-f5deff-HD.gif"
           />
         </ImageDiv>
         <TextDiv>

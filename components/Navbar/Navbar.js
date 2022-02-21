@@ -1,18 +1,43 @@
 import React from "react";
-import { Nav } from "./NavbarElements.js";
+import * as S from "./NavbarElements.js";
 import Boop from "./logo.js";
+import Tooltip from "@mui/material/Tooltip";
 
 const Navbar = (props) => {
   return (
     <>
-      <Nav>
+      <S.Nav>
         <Boop rotation={20} timing={200} tension={150} friction={10}>
-          <img
-            src="/imgs/bananalogo.png"
-            style={{ width: 75, marginTop: -7 }}
-          />
+          <S.BananaLogo src="/imgs/bananalogo.png" />
         </Boop>
-      </Nav>
+        <S.NavItems>
+          <S.SocialIcons>
+            <Boop rotation={20} timing={200} tension={100} friction={20}>
+              <a href="https://twitter.com/bangin_bananas">
+                <S.TwitterIcon
+                  src="/imgs/socialIcons/twitter-brands.svg"
+                  height="35px"
+                />
+              </a>
+            </Boop>
+            <Boop rotation={20} timing={200} tension={100} friction={20}>
+              <Tooltip title="Coming soon">
+                <S.DiscordIcon
+                  src="/imgs/socialIcons/discord-brands.svg"
+                  height="35px"
+                />
+              </Tooltip>
+            </Boop>
+            <Boop rotation={20} timing={200} tension={100} friction={20}>
+              <S.OpenseaIcon
+                src="/imgs/socialIcons/opensea-logo.svg"
+                height="35px"
+              />
+            </Boop>
+          </S.SocialIcons>
+          <S.ConnectButton>Connect</S.ConnectButton>
+        </S.NavItems>
+      </S.Nav>
     </>
   );
 };

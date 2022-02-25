@@ -60,5 +60,5 @@ export const NavItems = styled.div`
 
 export const SocialIcons = styled.div`
   padding-right: 20px;
-  padding-top: 13px;
+  padding-top: 17px;
 `;

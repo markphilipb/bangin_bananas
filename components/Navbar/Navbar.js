@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import * as S from "./NavbarElements.js";
 import Boop from "./logo.js";
 import Tooltip from "@mui/material/Tooltip";
@@ -35,7 +35,17 @@ const Navbar = (props) => {
               />
             </Boop>
           </S.SocialIcons>
-          <S.ConnectButton>Connect</S.ConnectButton>
+          <S.ConnectButton onClick={() => props.onConnectClick()}>
+            {props.walletAddr.length > 0 ? (
+              "Connected: " +
+              String(props.walletAddr).substring(0, 6) +
+              "..." +
+              String(props.walletAddr).substring(38)
+            ) : (
+              <span>Connect</span>
+            )}
+          </S.ConnectButton>
+          <button onClick={() => props.onMintClick()}>mint</button>
         </S.NavItems>
       </S.Nav>
     </>
